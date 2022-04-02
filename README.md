@@ -35,6 +35,9 @@ Axios
 ```bash
 npm
 ```
+```bash
+The application is configured to run on port 3007 you can change the port on src/main.ts file. the app has three endpoints; /lastWeekPost; /last600stories; /last25stories to get all the new stories /allPost/
+```
 
 ## Running the app
 
