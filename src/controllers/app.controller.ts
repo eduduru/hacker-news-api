@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import axios, { AxiosResponse } from 'axios';
 import { exit } from 'process';
-import { AppService } from './app.service';
+import { AppService } from '../app.service';
 
 @Controller()
 export class AppController {
