@@ -24,6 +24,18 @@ $ npm install
 $ npm install axios
 ```
 
+## Dependencies 
+
+```bash
+nestjs 8.0.0
+```
+```bash
+Axios
+```
+```bash
+npm
+```
+
 ## Running the app
 
 ```bash
