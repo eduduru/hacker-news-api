@@ -1,38 +1,17 @@
 ### Testing Hello world app
 GET http://localhost:3007
 
-### List all last 25 stories
-
-GET http://localhost:3000/messages/last_600_stories
-
-
-### List all words last week
-
-GET http://localhost:3002/messages/words_last_week
-
-
-### List all last 600 stories
-
-GET http://localhost:3002/messages/last_600_stories
-
-### testing post
-
-POST http://localhost:3002/messages
-Content-Type: application/json
-
-{
-    "content":"rice"
-}
-
-### Pass value
+### List all last
 
 GET http://localhost:3007/allPost/
 
-### Pass value
-GET http://localhost:3007/
+### List all words last week
 
-### Pass value
-GET http://localhost:3007/Top10words
-
-### Pass value
 GET http://localhost:3007/lastWeekPost
+
+
+### List all last 600 stories
+GET http://localhost:3007/last600stories
+
+### List all last 25 stories
+GET http://localhost:3007/last25stories
